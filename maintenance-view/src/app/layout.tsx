@@ -16,6 +16,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ja">
+      <head>
+        <link rel="stylesheet" href="http://xs1806024.xsrv.jp/globals.css" />
+      </head>
       <body className={inter.className}>
         <main>
           {children}
