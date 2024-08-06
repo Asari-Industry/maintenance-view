@@ -3,6 +3,8 @@
 import { useSearchParams } from 'next/navigation';
 import { Suspense } from 'react';
 
+import "./globals.css";
+
 function Time() {
   const searchParams = useSearchParams();
   let since = searchParams.get('since');
