@@ -3,7 +3,7 @@
 import Image from "next/image";
 import { useSearchParams } from 'next/navigation';
 
-const page = () => {
+const Page = () => {
   const searchParams = useSearchParams();
   const since = searchParams.get('since');
   const until = searchParams.get('until');
@@ -94,4 +94,4 @@ const page = () => {
   );
 }
 
-export default page;
+export default Page;
