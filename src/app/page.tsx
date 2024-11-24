@@ -23,7 +23,7 @@ function Time() {
 const Page = () => (
     <div className="flex items-center w-full h-full justify-center p-2">
         <div className="flex gap-4 items-end">
-            <div className="card rounded-2xl p-4 bg-slate-100">
+            <div className="card mainteOverview rounded-2xl p-4 bg-slate-100">
                 <AlertIcon />
                 <h1>このサービスは、<br />現在メンテナンスを<br />行っています。</h1>
                 <p>ご迷惑をおかけします。<br />メンテナンスについての情報は、<wbr />メンテナンスサイトから<wbr />ご確認いただけます。</p>

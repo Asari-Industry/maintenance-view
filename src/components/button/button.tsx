@@ -1,6 +1,8 @@
 import Link from "next/link";
 import React from "react";
 
+import "./button.css";
+
 interface ButtonProps {
     href: string;
     variation: "primary" | "secondary";
