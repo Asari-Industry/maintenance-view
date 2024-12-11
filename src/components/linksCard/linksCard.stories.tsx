@@ -1,5 +1,4 @@
 import type { Meta, StoryObj } from "@storybook/react";
-
 import LinksCard from "./linksCard";
 
 import "@/app/globals.css";
